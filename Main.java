@@ -1,7 +1,7 @@
 public class Main {
 	public static void main(String[] args) {
 		// testing arrays
-		String[] names = {"Bobby", "Joe", "Billy", "Jane", "Tina", "Mary"};
+		String[] names = {"Bobby", "Joe", "Billy", "Jane", "Tina", "Mary", "Mary"};
 		int[] ages = {13, 18, 11, 34, 11, 4};
 		System.out.println("names: " + process(names) + "\nages: " + process(ages) + "\n");
 		System.out.println("The minimum is " + findMin(ages)[0] + " found at index " + findMin(ages)[1] + ".");
@@ -130,7 +130,7 @@ public class Main {
 	// 10.
 	public static boolean duplicate(String[] arr) {
 		for(int i = 0; i < arr.length-1; i++) {
-			for(int j = 0; j < arr.length-1; j++) {
+			for(int j = 0; j < arr.length; j++) {
 				if(i != j && arr[i].equals(arr[j])) {
 					return true;
 				}
