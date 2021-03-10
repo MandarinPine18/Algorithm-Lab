@@ -5,7 +5,7 @@ public class Main {
 		int[] ages = {13, 18, 11, 34, 11, 4};
 		System.out.println("names: " + process(names) + "\nages: " + process(ages) + "\n");
 		
-        System.out.println("1. The minimum is " + findMin(ages)[0] + " found at index " + findMin(ages)[1] + ".");
+        System.out.println("1. The minimum is " + findMin(ages)[0] + " found at index " + findMin(ages)[1]);
 		System.out.println("2. The average is " + average(ages));
 		System.out.println("3. The sum is " + sum(ages));
 		System.out.println("4. \"Joe\" appears " + count(names, "Joe") + " times.");
