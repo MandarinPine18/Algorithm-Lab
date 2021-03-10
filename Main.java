@@ -130,7 +130,7 @@ public class Main {
 	// 10.
 	public static boolean duplicate(String[] arr) {
 		for(int i = 0; i < arr.length-1; i++) {
-			for(int j = 0; j < arr.length-1; j++) {
+			for(int j = 0; j < arr.length; j++) {
 				if(i != j && arr[i].equals(arr[j])) {
 					return true;
 				}
