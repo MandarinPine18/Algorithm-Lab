@@ -1,7 +1,7 @@
 public class Main {
 	public static void main(String[] args) {
 		// testing arrays
-		String[] names = {"Bobby", "Joe", "Billy", "Jane", "Tina", "Mary", "Mary"};
+		String[] names = {"Bobby", "Joe", "Billy", "Jane", "Tina", "Mary"};
 		int[] ages = {13, 18, 11, 34, 11, 4};
 		System.out.println("names: " + process(names) + "\nages: " + process(ages) + "\n");
 		System.out.println("The minimum is " + findMin(ages)[0] + " found at index " + findMin(ages)[1] + ".");
