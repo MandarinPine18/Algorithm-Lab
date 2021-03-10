@@ -7,7 +7,7 @@ public class Main {
 		System.out.println("The minimum is " + findMin(ages)[0] + " found at index " + findMin(ages)[1] + ".");
 		System.out.println("The average is " + average(ages));
 		System.out.println("The sum is " + sum(ages));
-		System.out.println("\"Joe\" appears " + count(names, "Joe") + "times.");
+		System.out.println("\"Joe\" appears " + count(names, "Joe") + " times.");
 		System.out.println("\"Jane\" is located at index " + locate(names, "Jane"));
 		System.out.println("ages reversed is: " + process(reverse(ages)));
 		System.out.println("The even numbers of ages are: " + process(even(ages)));
@@ -33,8 +33,8 @@ public class Main {
 	}
 
 	// 2.
-	public static int average(int[] arr) {
-		int total = 0;
+	public static double average(int[] arr) {
+		double total = 0;
 		for(int val: arr) {
 			total += val;
 		}
