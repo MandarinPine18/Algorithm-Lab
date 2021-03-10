@@ -3,10 +3,19 @@ public class Main {
 		// testing arrays
 		String[] names = {"Bobby", "Joe", "Billy", "Jane", "Tina", "Mary"};
 		int[] ages = {13, 18, 11, 34, 11, 4};
+		System.out.println("names: " + process(names) + "\nages: " + process(ages) + "\n");
 		System.out.println("The minimum is " + findMin(ages)[0] + " found at index " + findMin(ages)[1] + ".");
 		System.out.println("The average is " + average(ages));
 		System.out.println("The sum is " + sum(ages));
-		System.out.println("");
+		System.out.println("\"Joe\" appears " + count(names, "Joe") + "times.");
+		System.out.println("\"Jane\" is located at index " + locate(names, "Jane"));
+		System.out.println("ages reversed is: " + process(reverse(ages)));
+		System.out.println("The even numbers of ages are: " + process(even(ages)));
+		System.out.println("names shifted one to the right is: " + process(toTheRight(names)));
+		System.out.println("The array ages " + (consecutive(ages) ? "has" : "does not have") + " consecutive numbers in it.");
+		System.out.println("The array names " + (duplicate(names) ? "has" : "does not have") + " duplicates in it.");
+		System.out.println(howManyB(names) + " names start with the letter \"B\"");
+		System.out.println(belowOrEqual20(ages) + " ages are below or equal to 20.");
 	}
 
 	// 1.
