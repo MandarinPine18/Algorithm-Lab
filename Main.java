@@ -63,7 +63,6 @@ public class Main {
 	}
 
 	// 5.
-	// NOTE: although this would seem like a boolean problem, your example used a number, so I will return a number
 	public static int locate(String[] arr, String target) {
 		int index = 0;
 		for (String val: arr) {
